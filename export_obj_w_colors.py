@@ -201,7 +201,7 @@ def create_obj(sources):
                     '/',str(fc+1 + f_ix),' ',str(points.index(e.Vertexes[1].Point)+1 + v_ix),
                     '/',str(fc+1 + f_ix),' ',str(points.index(e.Vertexes[2].Point)+1 + v_ix),'/',str(fc+1 + f_ix),'\n'])
             except:
-                print "Fehler ",fc
+                print "Error ",fc
                 pass
         v_ix += len(points)
         f_ix += 1
